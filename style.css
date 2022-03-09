@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+.atlast{
+    background-color: #1a242f;
+
+}
+.bttn{
+    background-color: #0f79af;
+}
+.main-bg{
+    background-color: #1a242f;
+}
+.bg-black { background-color: black;  }
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+}
+img{
+    margin: 0;
+    max-width: 220px;
+}
+
+body{
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif;
+}
+
+.log{
+    background-color: #1a242f;
+    height: 80px;
+    padding-top: 20px;
+}
+#lin{
+    font-size: 3vw;
+}
+#line{
+    font-size: 2vw;
+}
+#linn{
+    font-size: 1vw;
+}
+#tt{
+    text-align: center;
+margin-top: 0px;
+margin-left: 0px;
+
+
+}
+
+.rightlogo{
+    justify-content: end;
+}
+h1{
+    margin: 0;
+}
+#hove img:hover{
+    cursor: pointer;
+    box-shadow: 0 0 5px 5px #666;
+    transition-duration: .5s;
+}
+
+
+@media screen and (max-width:550px){
+    #last{
+        text-align: center;
+        background-color: red;
+        font-size: 1rem;
+        
+    }
+    button{
+        width: 15rem;
+        height: 3rem;
+        margin-bottom: 4rem;
+    }
+    .cntr{
+        text-align: center;
+    }
+    .cntr p{
+        font-size: .5rem;
+    }
+    .cntr h2{
+        font-size: 2rem;
+    }
+   
+    #fav{
+        margin-top: 4rem;
+        margin-left: 0px;
+    }
+    .sign{
+        display: none;
+    }
+    .tt{
+        color: black;
+        
+    }
+    
+}
+
+
+/* SM */
+ @media screen and (max-width:720px){
+    .last{
+        text-align: center;
+        
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    }
+    p{
+        font-size: 1rem;
+        
+    }
+    .cntr{
+        text-align: center;
+        margin-bottom: 4rem;
+        
+    }
+    .cntr{
+        text-align: center;
+    }
+    .cntr p{
+        font-size: .5rem;
+    }
+    .cntr h2{
+        font-size: 2rem;
+    }
+    button{
+        width: 15rem;
+        height: 4rem;
+    }
+    .tt{
+        
+        margin-top: 0px;
+    }
+    .sign{
+        display: none;
+    }
+    .fooot p{
+        display: inline;
+
+    }
+    #lin{
+        font-size: 6vw;
+    }
+    #line{
+        font-size: 4vw;
+    }
+    #linn{
+        font-size: 3vw;
+    }
+  
+    } 
+
+
+    /* MD */
+ @media screen and (max-width:960px) {
+     p{
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    button{
+        width: 16rem;
+        height: 4rem;
+    }
+    .cntr h2{
+        margin-top: 4rem;
+    }
+    .cntr p{
+        font-size: 1rem;
+    }
+    .last{
+        text-align: left;
+        font-size: 3rem;
+    }
+    .tt{
+        text-align: center;
+        margin-top: 50px;
+        
+
+    }
+    .tt p{
+        text-align: center;
+        font-size: medium ;
+    }
+    .fooot p{
+        display: inline;
+
+    }
+    .cntr p{
+        font-size: rem;
+    }
+    #lin{
+        font-size: 6vw;
+    }
+    #line{
+        font-size: 4vw;
+    }
+    #linn{
+        font-size: 3vw;
+    }
+    
+    
+} 
+
+
+
+/* LG */
+ @media  (max-width:1140px) and (min-width:961px) {
+    p{
+        font-size: 5.5rem;
+        font-weight: 100;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    button{
+        width: 23rem;
+        height: 4rem;
+    }
+    .cntr h2{
+        margin-top: 4rem;
+    }
+    .cntr p{
+        font-size: 1.5rem;
+    }
+    .last{
+        text-align: left;
+        font-size: 3rem;
+    }
+    
+    .tt{
+        
+        margin-top: 0;
+        text-align: left;
+        background:none;
+    }
+    .fooot p{
+        display: inline;
+
+    }
+    .fooot a{
+        display: inline;
+
+    }    
+    #mainimg{
+        margin-top: 55rem;
+    }
+    
+} 
+   
+
+
+
+/* XXL */
+ @media (min-width:1141px) { 
+    
+    p{
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    button{
+        width: 15rem;
+        height: 4rem;
+    }
+    .cntr h2{
+        margin-top: 4rem;
+    }
+    .cntr p{
+        font-size: 1.5rem;
+    }
+    .last{
+        text-align: left;
+        font-size: 3rem;
+    }
+    #linn{
+        font-size: 1rem;
+    }
+    .tt{
+        
+        margin-top: 0px;
+        text-align: left;
+        background:none;
+    }
+    .fooot p{
+        display: inline;
+
+    }
+    .fooot a{
+        display: inline;
+
+    }
+    
+    
+} 
+
+
